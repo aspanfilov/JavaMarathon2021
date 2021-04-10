@@ -6,6 +6,7 @@ public class Task3 {
     public static void main(String[] args) {
         int[][] matrice = new int[12][8];
         Random random = new Random();
+
         int maxSumOfNumbers = 0;
         int bufSumOfNumbers = 0;
         int rowIndex = 0;
