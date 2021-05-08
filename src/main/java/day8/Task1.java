@@ -8,7 +8,7 @@ public class Task1 {
             string = string + i + " ";
         }
         long finish = System.currentTimeMillis();
-        System.out.println("Сцепление строк: " + (finish-start));
+        System.out.println("Сцепление строк: " + (finish - start));
 
         start = System.currentTimeMillis();
         StringBuilder sb = new StringBuilder();
@@ -16,6 +16,6 @@ public class Task1 {
             sb.append(i).append(" ");
         }
         finish = System.currentTimeMillis();
-        System.out.println("StringBuilder: " + (finish-start));
+        System.out.println("StringBuilder: " + (finish - start));
     }
 }
